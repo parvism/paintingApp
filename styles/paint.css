@@ -1,0 +1,78 @@
+
+body {
+        margin: 0px;
+        padding: 0px;
+        background: #87CEFA;
+
+}
+
+canvas {
+	position: absolute;
+	background: transparent;
+}
+
+#background { z-index: 0; }
+
+#myCanvas { z-index: 1; }
+
+#fg_canvas { z-index: 2; }
+
+.tab { padding-right: 0.5em;
+		padding-left: 0.5em;
+		text-decoration: none;}
+
+.links {
+font-size: 20px;
+text-align: left;
+}
+
+header, main, footer {
+	margin: 0 1.5% 24px 1.5%;
+	display: block;
+	/*background: #00BFFF;*/
+	/*background-color: #DDE8ED;*/
+    border-radius: 6px;
+    padding: 24px 15px; }
+
+header { text-align: center; }
+
+section { float: left; width: 70%; }
+
+footer { clear: both; margin-bottom: 0; }
+
+#paint {
+	width:800px; height:700px;
+	border: 2px solid #000000;
+	background-color: white;
+}
+
+.button {
+	width: 60px; height: 60px;
+	border-radius: 60px;
+	border: none;
+	cursor: pointer;
+}
+
+.outlineButton {
+	width: 75px; height: 75px;
+	cursor: pointer;
+	background-color: white;
+	vertical-align: bottom;
+	margin: 4px;
+}
+
+#redButton {background-color: red;}
+#blackButton {background-color: black;}
+#blueButton {background-color: blue;}
+#greenButton {background-color: green;}
+#yellowButton {background-color: yellow;}
+#brownButton {background-color: brown;}
+#eraser {background-color: white;}
+
+#clear, #bg_clear {
+		width: 60px; height: 35px;
+		background-color: white;
+		cursor: pointer;
+}
+
+#selectColor, #points {width: 50px;}

@@ -1,0 +1,68 @@
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+  	<meta charset = "utf-8">
+  	<title>Parviz Mozaffari - Painting App</title>
+    <link rel="stylesheet" type="text/css" href="styles/paint.css">
+
+  </head>
+  <body>
+  	<header>
+  		<p class="links">
+  			<a href="index.html" class="tab">HOME</a>  			
+  	</header>
+  	<main>
+  		<section>
+  			<div id="paint">
+  				<canvas id="background"> </canvas>
+  				<canvas id="myCanvas"> </canvas>
+			</div>
+  		</section>
+  		<nav>
+  			<div>
+				<p><button id="blackButton" class="button"> </button>
+					<button id="brownButton" class="button"> </button>
+					<button id="blueButton" class="button"> </button>
+				</p>
+				<p>
+					<button id="greenButton" class="button"> </button>
+					<button id="redButton" class="button"> </button>
+					<button id="yellowButton" class="button"> </button>
+				</p>
+				<p>
+					<button id="eraser" class="button"><img src="images/imagebot.png">Eraser</button>
+				</p>
+
+			</div>
+			<div>
+				<p>Choose a color: <input type="color" id="selectColor"/></p>
+				<p>Choose a font: <input type="number" id="points" min="1" max="20" value="5" step="1"></p>
+			</div>
+			<div>
+				<p><button id="clear">Clear</button></p>
+			</div>
+
+			<div>
+				<p>Choose a outline: </p>
+
+				<button id="cow" class="outlineButton"><img src="images/tinyCow.png" /></button>
+				<button id="fighter" class="outlineButton"><img src="images/fighterTiny.jpg" /></button>
+				<button id="pigInSky" class="outlineButton"><img src="images/pigInSkyTiny.jpg" /></button>
+				<button id="honda" class="outlineButton"><img src="images/tinyHonda.png" /></button>
+				<button id="fishTrans" class="outlineButton"><img src="images/fishTransTiny.png" /></button>
+				<button id="flowers" class="outlineButton"><img src="images/flowersTiny.jpg" /></button>
+				<button id="girl" class="outlineButton"><img src="images/girlTiny.jpg" /></button>
+				<button id="happyFace" class="outlineButton"><img src="images/happyFaceTiny.jpg" /></button>
+
+				<p><button id="bg_clear">Clear</button></p>
+			</div>
+  		</nav>
+  	</main>
+  	<footer>
+
+
+  	</footer>
+  	<script src="scripts/paint.js"> </script>
+  </body>
+</html>
